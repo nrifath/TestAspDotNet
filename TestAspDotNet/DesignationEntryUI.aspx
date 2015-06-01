@@ -18,7 +18,7 @@
     <form id="form1" runat="server">
         
     <div style="width:500px;margin: auto;background: #f3f3f3;padding: 10px;">
-        <h2>Designation Entry</h2><hr/>
+        <h2>Designation Entry</h2><p><a href="EmployeeEntryUI.aspx">Employee Entry</a></p><hr/>
     <table class="auto-style1">
             <tr>
                 <td class="auto-style2">Designation Code</td>
