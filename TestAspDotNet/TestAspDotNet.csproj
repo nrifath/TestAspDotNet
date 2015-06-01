@@ -65,10 +65,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DesignationEntryUI.aspx" />
     <Content Include="EmployeeEntryUI.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignationEntryUI.aspx.cs">
+      <DependentUpon>DesignationEntryUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesignationEntryUI.aspx.designer.cs">
+      <DependentUpon>DesignationEntryUI.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeEntryUI.aspx.cs">
       <DependentUpon>EmployeeEntryUI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

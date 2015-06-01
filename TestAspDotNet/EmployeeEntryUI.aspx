@@ -18,7 +18,7 @@
     <form id="form1" runat="server">
         
     <div style="width:500px;margin: auto;background: #f3f3f3;padding: 10px;">
-        <h2>Employee Information Entry</h2>
+        <h2 style="text-align: left">Employee Information Entry</h2>
     <table class="auto-style1">
             <tr>
                 <td class="auto-style2">Employee ID</td>
